@@ -4,16 +4,20 @@
     border-radius: 5px;
     padding: 4px;
 }
+
 .error {
     background-color: #ff6666;
 }
+
 .success {
     background-color: #88ff88;
 }
+
 .box ul {
     margin: 4px;
     padding-left: 14px;
 }
+
 .box ul li {
     margin-bottom: 2px;
 }
@@ -21,19 +25,23 @@
 .install-password {
     font-size: 1.2em;
 }
+
 .top-menu {
     border: 1px dotted silver;
     min-height: 18px;
     padding: 4px;
     margin-bottom: 4px;
 }
+
 .menu-options {
     float: right;
 }
+
 h1, h2, h3 {
     margin-top: 0;
     margin-bottom: 8px;
 }
+
 body {
     font-family: sans-serif;
 }
@@ -54,26 +62,36 @@ body {
     display: inline;
     font-size: 0.95em;
 }
+
 .comment .comment-meta {
     font-size: 0.85em;
     color: grey;
     border-top: 1px dotted silver;
     padding-top: 8px;
 }
+
+.comment .comment-meta input {
+    float: right;
+}
+
 .comment-body p {
     margin: 8px 4px;
 }
+
 .comment-list {
     border-bottom: 1px dotted silver;
     margin-bottom: 12px;
+    max-width: 900px;
 }
 
 .comment-margin {
     margin-bottom: 8px;
 }
+
 .user-form input,
 .user-form textarea {
     margin: 4px;
+
 }
 .user-form label {
     font-size: 0.95em;
